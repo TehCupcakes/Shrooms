@@ -15,5 +15,9 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"oHudResource","order":2,"path":"objects/oHudResource/oHudResource.yy",},
+    {"name":"sResourceBg","order":1,"path":"sprites/sResourceBg/sResourceBg.yy",},
+    {"name":"oMushroom","order":1,"path":"objects/oMushroom/oMushroom.yy",},
+  ],
 }
