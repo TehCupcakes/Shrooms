@@ -15,3 +15,7 @@ global.inputs = {
 }
 
 global.money = 10
+
+if (!global.debug) {
+	randomize();
+}
