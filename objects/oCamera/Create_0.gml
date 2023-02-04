@@ -10,3 +10,8 @@ camX = (camMaxX - camMinX + playAreaWidth) / 2
 camY = (camMaxY - camMinY + playAreaHeight) / 2
 
 camera_set_view_pos(view_camera[0], camX, camY)
+
+halfWidth = camera_get_view_width(view_camera[0]) / 2;
+halfHeight = camera_get_view_height(view_camera[0]) / 2;
+centerX = camX + halfWidth;
+centerY = camY + halfHeight;
