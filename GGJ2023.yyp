@@ -58,6 +58,7 @@
     {"id":{"name":"oSpreadFX","path":"objects/oSpreadFX/oSpreadFX.yy",},"order":0,},
     {"id":{"name":"sMushroom","path":"sprites/sMushroom/sMushroom.yy",},"order":0,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":0,},
+    {"id":{"name":"sNoGood","path":"sprites/sNoGood/sNoGood.yy",},"order":0,},
     {"id":{"name":"sStump","path":"sprites/sStump/sStump.yy",},"order":0,},
     {"id":{"name":"sGameBG","path":"sprites/sGameBG/sGameBG.yy",},"order":0,},
     {"id":{"name":"sResourceHUD","path":"sprites/sResourceHUD/sResourceHUD.yy",},"order":0,},
