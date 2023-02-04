@@ -44,9 +44,11 @@
     {"id":{"name":"sResourceBg","path":"sprites/sResourceBg/sResourceBg.yy",},"order":0,},
     {"id":{"name":"oMushroom","path":"objects/oMushroom/oMushroom.yy",},"order":0,},
     {"id":{"name":"sMushroom","path":"sprites/sMushroom/sMushroom.yy",},"order":0,},
+    {"id":{"name":"sStump","path":"sprites/sStump/sStump.yy",},"order":0,},
     {"id":{"name":"sGameBG","path":"sprites/sGameBG/sGameBG.yy",},"order":0,},
     {"id":{"name":"sResourceHUD","path":"sprites/sResourceHUD/sResourceHUD.yy",},"order":0,},
     {"id":{"name":"constants","path":"scripts/constants/constants.yy",},"order":0,},
+    {"id":{"name":"sGrass","path":"sprites/sGrass/sGrass.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "RoomOrderNodes": [

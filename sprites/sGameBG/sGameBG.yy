@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sGameBG",
-  "bbox_bottom": 255,
+  "bbox_bottom": 31,
   "bbox_left": 0,
-  "bbox_right": 255,
+  "bbox_right": 31,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"05885ac9-1cd8-4dc4-a562-a13f8e777494",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0cb59430-c04d-453e-9991-078d3fbb7d06",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 256,
+  "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"98b7b0e1-0f68-49a2-99c9-571f49f435b4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"186e57be-fa4f-4082-823d-cbdb416f5607","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"05885ac9-1cd8-4dc4-a562-a13f8e777494","path":"sprites/sGameBG/sGameBG.yy",},},},"Disabled":false,"id":"47d8d1f7-c3a1-4ae1-b13f-7e828440504a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0cb59430-c04d-453e-9991-078d3fbb7d06","path":"sprites/sGameBG/sGameBG.yy",},},},"Disabled":false,"id":"d72a4405-c56b-4880-9b8b-7643eb7cbebe","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 256,
+  "width": 32,
 }

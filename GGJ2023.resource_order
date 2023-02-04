@@ -23,7 +23,9 @@
     {"name":"oHealthHUD","order":3,"path":"objects/oHealthHUD/oHealthHUD.yy",},
     {"name":"sResourceBg","order":1,"path":"sprites/sResourceBg/sResourceBg.yy",},
     {"name":"oMushroom","order":1,"path":"objects/oMushroom/oMushroom.yy",},
+    {"name":"sStump","order":8,"path":"sprites/sStump/sStump.yy",},
     {"name":"sGameBG","order":4,"path":"sprites/sGameBG/sGameBG.yy",},
     {"name":"sResourceHUD","order":2,"path":"sprites/sResourceHUD/sResourceHUD.yy",},
+    {"name":"sGrass","order":7,"path":"sprites/sGrass/sGrass.yy",},
   ],
 }
