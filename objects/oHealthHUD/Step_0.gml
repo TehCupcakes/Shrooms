@@ -1,0 +1,1 @@
+global.colonyHealth = clamp(instance_number(oGoldenShroom) * 10, 0, 100)
