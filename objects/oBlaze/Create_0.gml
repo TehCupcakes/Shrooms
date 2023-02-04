@@ -5,5 +5,5 @@
 event_inherited();
 
 damageRange = 40;
-dmg = 3;
+dmg = 2;
 scale = .5;

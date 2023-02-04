@@ -4,6 +4,6 @@
 // Inherit the parent event
 event_inherited();
 objToSpawn = oGoldenShroom;
-minRange = 0;
-maxRange = 100;
-frequency = 60*30;
+minRange = 15;
+maxRange = 150;
+frequency = 60*60;

@@ -2,10 +2,10 @@
 /// Use this to set up variables like cost based on resource type
 if (shroomType == ShroomType.SHROOMY) {
 	shroomSprite = sMushroom
-	cost = 1
+	cost = 3;
 } else if (shroomType == ShroomType.BLAZE) {
 	shroomSprite = BlazeShroom;
-	cost = 4;
+	cost = 5;
 } else if (shroomType == ShroomType.GOLDEN) {
 	shroomSprite = GoldenShroom;
 	cost = 10;
@@ -17,5 +17,5 @@ if (shroomType == ShroomType.SHROOMY) {
 	cost = 8;
 } else if (shroomType == ShroomType.TASTY) {
 	shroomSprite = Tasty;
-	cost = 5;
+	cost = 6;
 }
