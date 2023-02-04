@@ -6,3 +6,10 @@ global.displayHeight = 900
 global.displayWidth = 1600
 
 display_set_gui_size(global.displayWidth, global.displayHeight)
+
+global.inputs = {
+	up: false,
+	down: false,
+	left: false,
+	right: false
+}
