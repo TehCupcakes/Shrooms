@@ -15,6 +15,7 @@ if (!placed) {
 		if (positionValid) {
 			placed = true
 			event_user(0)
+			audio_play_sound(snd_PlacementSound, 10, false);
 		} else {
 			// Cancel placement if player released in sidebar and refund money
 			global.money += creator.cost
