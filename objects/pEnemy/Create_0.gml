@@ -6,3 +6,5 @@ hp = 100;
 slowed = false;
 
 mp_potential_settings(45, 5, 5, 0);
+
+scrDepthSetDynamic()

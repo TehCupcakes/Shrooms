@@ -37,6 +37,7 @@
   },
   "resources": [
     {"id":{"name":"SmallPond","path":"sprites/SmallPond/SmallPond.yy",},"order":0,},
+    {"id":{"name":"scrDepthSetDynamic","path":"scripts/scrDepthSetDynamic/scrDepthSetDynamic.yy",},"order":0,},
     {"id":{"name":"oBlaze","path":"objects/oBlaze/oBlaze.yy",},"order":0,},
     {"id":{"name":"oHudResource","path":"objects/oHudResource/oHudResource.yy",},"order":0,},
     {"id":{"name":"sHealthHUD","path":"sprites/sHealthHUD/sHealthHUD.yy",},"order":0,},
