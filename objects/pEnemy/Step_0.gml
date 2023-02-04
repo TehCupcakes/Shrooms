@@ -1,31 +1,34 @@
 // Find the closest golden shroom that is PLACED
-var closestShroom = noone
-var closestDist = 10000000
+var closestTasty = noone
+var closestDistTasty = 10000000
 with (oTasty) {
 	// Ignore any shrooms that aren't placed
 	if (placed) {
 		var currentDist = distance_to_object(other)
-		if (closestShroom == noone || currentDist < closestDist) {
-			closestShroom = self
-			closestDist = currentDist
+		if (closestTasty == noone || currentDist < closestDistTasty) {
+			closestTasty = self
+			closestDistTasty = currentDist
 		}
 	}
 }
 
-if (closestShroom == noone) {
-	with (oGoldenShroom) {
-		// Ignore any shrooms that aren't placed
-		if (placed) {
-			var currentDist = distance_to_object(other)
-			if (closestShroom == noone || currentDist < closestDist) {
-				closestShroom = self
-				closestDist = currentDist
-			}
+var closestGolden = noone;
+var closestDistGolden = 10000000;
+with (oGoldenShroom) {
+	// Ignore any shrooms that aren't placed
+	if (placed) {
+		var currentDist = distance_to_object(other)
+		if (closestGolden == noone || currentDist < closestDistGolden) {
+			closestGolden = self
+			closestDistGolden = currentDist
 		}
 	}
 }
 
-
+var closestShroom = closestGolden;
+if (closestDistTasty < closestDistGolden) {
+	closestShroom = closestTasty;
+}
 
 cur_spd = spd;
 
