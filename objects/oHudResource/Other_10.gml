@@ -9,4 +9,7 @@ if (shroomType == ShroomType.SHROOMY) {
 } else if (shroomType == ShroomType.GOLDEN) {
 	shroomSprite = GoldenShroom;
 	cost = 5;
-} 
+} else if (shroomType == ShroomType.SLEEPY) {
+	shroomSprite = SleepyShroom;
+	cost = 2;
+}

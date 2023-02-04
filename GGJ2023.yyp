@@ -64,7 +64,6 @@
     {"id":{"name":"scrPosInPlayArea","path":"scripts/scrPosInPlayArea/scrPosInPlayArea.yy",},"order":0,},
     {"id":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},"order":0,},
     {"id":{"name":"oShroomy","path":"objects/oShroomy/oShroomy.yy",},"order":0,},
-    {"id":{"name":"SleepyMushroom","path":"sprites/SleepyMushroom/SleepyMushroom.yy",},"order":0,},
     {"id":{"name":"pMushroom","path":"objects/pMushroom/pMushroom.yy",},"order":0,},
     {"id":{"name":"oSpreadFX","path":"objects/oSpreadFX/oSpreadFX.yy",},"order":0,},
     {"id":{"name":"sMushroom","path":"sprites/sMushroom/sMushroom.yy",},"order":0,},

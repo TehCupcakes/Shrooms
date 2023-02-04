@@ -4,7 +4,9 @@
 // Inherit the parent event
 event_inherited();
 
-damageRange = 160;
-dmg = .5;
-placementSpaceNeeded = 128;
-scale = 2;
+if (placed) {
+	for (var i = 0; i < ds_list_size(inRange); i++) {
+		var enemy = inRange[| i]
+		enemy.slowed = true;
+	}
+}

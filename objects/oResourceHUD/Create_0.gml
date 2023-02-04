@@ -22,3 +22,9 @@ golden.shroomType = ShroomType.GOLDEN
 with(golden) {
 	event_user(0);
 }
+
+var sleepy = instance_create_layer(hudWidth / 2, (hudPadding * 4) + (height * 3 ) + (height / 2), "HUD_FG", oHudResource)
+sleepy.shroomType = ShroomType.SLEEPY
+with(sleepy) {
+	event_user(0);
+}

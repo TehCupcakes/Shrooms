@@ -4,6 +4,7 @@
   "name": "oSleepy",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -31,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SleepyMushroom",
-    "path": "sprites/SleepyMushroom/SleepyMushroom.yy",
+    "name": "SleepyShroom",
+    "path": "sprites/SleepyShroom/SleepyShroom.yy",
   },
   "spriteMaskId": null,
   "visible": true,
