@@ -1,20 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oGoldenShroomSpawner",
+  "name": "oSleepy",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Shrooms",
+    "path": "folders/Objects/Shrooms.yy",
   },
   "parentObjectId": {
-    "name": "pSpawner",
-    "path": "objects/pSpawner/pSpawner.yy",
+    "name": "oShroomy",
+    "path": "objects/oShroomy/oShroomy.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,7 +31,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "SleepyShroom",
+    "path": "sprites/SleepyShroom/SleepyShroom.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

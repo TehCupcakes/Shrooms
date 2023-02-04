@@ -3,18 +3,18 @@
   "resourceVersion": "1.0",
   "name": "oGoldenShroom",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Shrooms",
+    "path": "folders/Objects/Shrooms.yy",
   },
   "parentObjectId": {
-    "name": "pStructure",
-    "path": "objects/pStructure/pStructure.yy",
+    "name": "pMushroom",
+    "path": "objects/pMushroom/pMushroom.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

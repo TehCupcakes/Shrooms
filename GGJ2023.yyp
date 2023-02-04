@@ -37,6 +37,7 @@
   },
   "resources": [
     {"id":{"name":"SmallPond","path":"sprites/SmallPond/SmallPond.yy",},"order":0,},
+    {"id":{"name":"scrDepthSetDynamic","path":"scripts/scrDepthSetDynamic/scrDepthSetDynamic.yy",},"order":0,},
     {"id":{"name":"oBlaze","path":"objects/oBlaze/oBlaze.yy",},"order":0,},
     {"id":{"name":"snd_PlacementSound","path":"sounds/snd_PlacementSound/snd_PlacementSound.yy",},"order":0,},
     {"id":{"name":"oHudResource","path":"objects/oHudResource/oHudResource.yy",},"order":0,},
@@ -57,6 +58,7 @@
     {"id":{"name":"BlazeShroom","path":"sprites/BlazeShroom/BlazeShroom.yy",},"order":0,},
     {"id":{"name":"oHealthHUD","path":"objects/oHealthHUD/oHealthHUD.yy",},"order":0,},
     {"id":{"name":"EnemyHole","path":"sprites/EnemyHole/EnemyHole.yy",},"order":0,},
+    {"id":{"name":"oSleepy","path":"objects/oSleepy/oSleepy.yy",},"order":0,},
     {"id":{"name":"sResourceBg","path":"sprites/sResourceBg/sResourceBg.yy",},"order":0,},
     {"id":{"name":"oSlug","path":"objects/oSlug/oSlug.yy",},"order":0,},
     {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},"order":0,},

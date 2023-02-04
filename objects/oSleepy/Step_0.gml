@@ -3,4 +3,10 @@
 
 // Inherit the parent event
 event_inherited();
-hp = 60*3;
+
+if (placed) {
+	for (var i = 0; i < ds_list_size(inRange); i++) {
+		var enemy = inRange[| i]
+		enemy.slowed = true;
+	}
+}

@@ -6,6 +6,7 @@ if (!placed) {
 	if (inSidebar || inPlayArea) {
 		x = mouse_x
 		y = mouse_y
+		scrDepthSetDynamic()
 	}
 	// Check if it is a valid position to place the mushroom
 	positionValid = inPlayArea && !collision_circle(x, y, placementSpaceNeeded, pStructure, false, true)

@@ -3,4 +3,8 @@
 
 // Inherit the parent event
 event_inherited();
-hp = 60*3;
+
+damageRange = 120;
+dmg = .25;
+placementSpaceNeeded = 96;
+scale = 1.5;
