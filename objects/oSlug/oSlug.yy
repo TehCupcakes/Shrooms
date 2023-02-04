@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oSquirrel",
+  "name": "oSlug",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Squirrel",
-    "path": "sprites/Squirrel/Squirrel.yy",
+    "name": "Slug",
+    "path": "sprites/Slug/Slug.yy",
   },
   "spriteMaskId": null,
   "visible": true,
