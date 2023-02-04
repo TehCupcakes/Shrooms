@@ -48,6 +48,7 @@
     {"id":{"name":"oEnemyHoleSpawner","path":"objects/oEnemyHoleSpawner/oEnemyHoleSpawner.yy",},"order":0,},
     {"id":{"name":"oPond","path":"objects/oPond/oPond.yy",},"order":0,},
     {"id":{"name":"Slug","path":"sprites/Slug/Slug.yy",},"order":0,},
+    {"id":{"name":"SleepyShroom","path":"sprites/SleepyShroom/SleepyShroom.yy",},"order":0,},
     {"id":{"name":"oStump","path":"objects/oStump/oStump.yy",},"order":0,},
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},"order":0,},
     {"id":{"name":"sRootSpread","path":"sprites/sRootSpread/sRootSpread.yy",},"order":0,},
