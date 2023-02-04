@@ -1,11 +1,7 @@
-ds_list_clear(list);
-collision_circle_list(x, y, 9000, oGoldenShroom, 0, 0, list, true);
+closestShroom = instance_nearest(x,y, oGoldenShroom);
 
-if (ds_list_size(list) > 0) 
-{
-	var closestShroom = list[| 0];
-	
-	var dir = point_direction(x, y, closestShroom.x, closestShroom.y);
-	x += lengthdir_x(speed, dir);
-	y += lengthdir_y(speed, dir);
-}	
+if (point_distance(x, y, closestShroom.x, closestShroom.y) > stop_threshold) {
+	dir = point_direction(x, y, closestShroom.x, closestShroom.y);
+	x += lengthdir_x(spd, dir);
+	y += lengthdir_y(spd, dir);
+}

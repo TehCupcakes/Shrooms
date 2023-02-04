@@ -1,2 +1,2 @@
-speed = 2;
-list = ds_list_create()
+spd = 1;
+stop_threshold = 15;
