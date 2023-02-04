@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oGoldenShroomSpawner",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "oPond",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -12,8 +10,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "pSpawner",
-    "path": "objects/pSpawner/pSpawner.yy",
+    "name": "pWall",
+    "path": "objects/pWall/pWall.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -30,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "SmallPond",
+    "path": "sprites/SmallPond/SmallPond.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

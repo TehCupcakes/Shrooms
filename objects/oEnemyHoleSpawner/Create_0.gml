@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-objToSpawn = oGoldenShroom;
-minRange = 0;
-maxRange = 100;
-frequency = 60*30;
+objToSpawn = oEnemyHole;
+minRange = 200;
+maxRange = 500;
+frequency = 60*5;
