@@ -5,7 +5,7 @@ if (closestShroom != noone) {
 		dir = point_direction(x, y, closestShroom.x, closestShroom.y);
 		x += lengthdir_x(spd, dir);
 		y += lengthdir_y(spd, dir);
-		mp_potential_step(closestShroom.x, closestShroom.y, spd, 1);
+		mp_potential_step_object(closestShroom.x, closestShroom.y, spd, pWall);
 	}
 	else {
 		closestShroom.hp -= dmg;

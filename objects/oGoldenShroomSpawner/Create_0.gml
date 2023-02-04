@@ -5,5 +5,5 @@
 event_inherited();
 objToSpawn = oGoldenShroom;
 minRange = 0;
-maxRange = 100;
+maxRange = 200;
 frequency = 60*30;

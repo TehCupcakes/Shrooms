@@ -4,6 +4,9 @@ var instanceType = pMushroom
 if (shroomType == ShroomType.SHROOMY) {
 	instanceType = oShroomy
 }
+else if (shroomType == ShroomType.BLAZE) {
+	instanceType = oBlaze;
+}
 
 if (global.money >= cost) {
 	global.money -= cost

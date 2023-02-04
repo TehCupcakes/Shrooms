@@ -10,8 +10,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "pWall",
-    "path": "objects/pWall/pWall.yy",
+    "name": "pStructure",
+    "path": "objects/pStructure/pStructure.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "SmallPond",
     "path": "sprites/SmallPond/SmallPond.yy",

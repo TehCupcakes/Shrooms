@@ -4,3 +4,4 @@ creator = noone
 spread = 0
 maxSpread = 10
 alarm[0] = 20
+image_alpha = .25;

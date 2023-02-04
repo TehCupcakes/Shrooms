@@ -8,7 +8,7 @@ if (!placed) {
 		y = mouse_y
 	}
 	// Check if it is a valid position to place the mushroom
-	positionValid = inPlayArea && !collision_circle(x, y, placementSpaceNeeded, pMushroom, false, true)
+	positionValid = inPlayArea && !collision_circle(x, y, placementSpaceNeeded, pStructure, false, true)
 	
 	// If mouse is released, place/cancel placement
 	if (mouse_check_button_released(mb_left)) {

@@ -1,20 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oGoldenShroom",
+  "name": "oBlaze",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Shrooms",
+    "path": "folders/Objects/Shrooms.yy",
   },
   "parentObjectId": {
-    "name": "pStructure",
-    "path": "objects/pStructure/pStructure.yy",
+    "name": "oShroomy",
+    "path": "objects/oShroomy/oShroomy.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "GoldenShroom",
-    "path": "sprites/GoldenShroom/GoldenShroom.yy",
+    "name": "BlazeShroom",
+    "path": "sprites/BlazeShroom/BlazeShroom.yy",
   },
   "spriteMaskId": null,
   "visible": true,

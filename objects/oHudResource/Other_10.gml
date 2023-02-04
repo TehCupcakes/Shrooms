@@ -3,4 +3,7 @@
 if (shroomType == ShroomType.SHROOMY) {
 	shroomSprite = sMushroom
 	cost = 1
+} else if (shroomType == ShroomType.BLAZE) {
+	shroomSprite = BlazeShroom;
+	cost = 2;
 }
