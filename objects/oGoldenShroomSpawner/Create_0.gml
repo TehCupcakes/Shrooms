@@ -1,2 +1,4 @@
-instance_create_layer(1848,1800, "Instances", oGoldenShroom)
 alarm[0] = 300
+range = 250
+
+instance_create_layer(oCamera.centerX, oCamera.centerY, "Instances", oGoldenShroom);
