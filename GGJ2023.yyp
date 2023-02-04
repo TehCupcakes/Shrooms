@@ -4,6 +4,8 @@
   "name": "GGJ2023",
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audioMusic","targets":-1,},
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audioSfx","targets":-1,},
   ],
   "configs": {
     "children": [
@@ -52,6 +54,7 @@
     {"id":{"name":"oEnemyHoleSpawner","path":"objects/oEnemyHoleSpawner/oEnemyHoleSpawner.yy",},"order":0,},
     {"id":{"name":"oPond","path":"objects/oPond/oPond.yy",},"order":0,},
     {"id":{"name":"Slug","path":"sprites/Slug/Slug.yy",},"order":0,},
+    {"id":{"name":"snd_SquirrelSqueak","path":"sounds/snd_SquirrelSqueak/snd_SquirrelSqueak.yy",},"order":0,},
     {"id":{"name":"SleepyShroom","path":"sprites/SleepyShroom/SleepyShroom.yy",},"order":0,},
     {"id":{"name":"Tasty","path":"sprites/Tasty/Tasty.yy",},"order":0,},
     {"id":{"name":"oStump","path":"objects/oStump/oStump.yy",},"order":0,},
@@ -85,6 +88,7 @@
     {"id":{"name":"pStructure","path":"objects/pStructure/pStructure.yy",},"order":0,},
     {"id":{"name":"pSpawner","path":"objects/pSpawner/pSpawner.yy",},"order":0,},
     {"id":{"name":"constants","path":"scripts/constants/constants.yy",},"order":0,},
+    {"id":{"name":"snd_SlugSplat","path":"sounds/snd_SlugSplat/snd_SlugSplat.yy",},"order":0,},
     {"id":{"name":"sGrass","path":"sprites/sGrass/sGrass.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
