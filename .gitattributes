@@ -1,0 +1,4 @@
+extensions/* linguist-vendored
+*.yy linguist-language=JSON
+*.yyp linguist-language=JSON
+*.sh binary
