@@ -11,8 +11,9 @@ if (!placed) {
 	if (mouse_check_button_released(mb_left)) {
 		if (inPlayArea) {
 			placed = true
-			// Start spread animation
-			alarm[0] = 30
+			instance_create_layer(x, y, "FX", oSpreadFX, {
+				creator: id
+			})
 		} else {
 			// Cancel placement if player released in sidebar
 			instance_destroy()

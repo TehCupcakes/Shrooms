@@ -2,5 +2,5 @@
 spread++
 
 if (spread < maxSpread) {
-	alarm[0] = 30
+	alarm[0] = 20
 }
