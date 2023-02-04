@@ -15,3 +15,5 @@ global.inputs = {
 }
 
 global.money = 10
+
+audio_play_sound(snd_BackgroundMusic, 10, true);
