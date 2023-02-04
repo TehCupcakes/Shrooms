@@ -3,4 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-hp = 60*3;
+objSpawned.placed = true;
+objSpawned.positionValid = true;
