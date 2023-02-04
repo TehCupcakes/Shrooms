@@ -14,11 +14,16 @@
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
+    {"name":"UI","order":6,"path":"folders/Sprites/UI.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oHudResource","order":2,"path":"objects/oHudResource/oHudResource.yy",},
+    {"name":"oResourceHUD","order":4,"path":"objects/oResourceHUD/oResourceHUD.yy",},
     {"name":"sRootSpread","order":2,"path":"sprites/sRootSpread/sRootSpread.yy",},
+    {"name":"oHealthHUD","order":3,"path":"objects/oHealthHUD/oHealthHUD.yy",},
     {"name":"sResourceBg","order":1,"path":"sprites/sResourceBg/sResourceBg.yy",},
     {"name":"oMushroom","order":1,"path":"objects/oMushroom/oMushroom.yy",},
+    {"name":"sGameBG","order":4,"path":"sprites/sGameBG/sGameBG.yy",},
+    {"name":"sResourceHUD","order":2,"path":"sprites/sResourceHUD/sResourceHUD.yy",},
   ],
 }
