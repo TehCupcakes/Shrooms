@@ -5,7 +5,7 @@ camY = camera_get_view_y(view_camera[0])
 var camSpeed = 6
 var hdir = global.inputs.right - global.inputs.left
 var vdir = global.inputs.down - global.inputs.up
-if (hdir != 0 || vdir != 0) {
+if ((hdir != 0 || vdir != 0) && (!instance_exists(oMinimap) || !oMinimap.moveToPoint)) {
 	var moveDir = point_direction(0, 0, hdir, vdir)
 	camX += lengthdir_x(camSpeed, moveDir)
 	camY += lengthdir_y(camSpeed, moveDir)

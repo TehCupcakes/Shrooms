@@ -41,6 +41,7 @@
     {"id":{"name":"oHudResource","path":"objects/oHudResource/oHudResource.yy",},"order":0,},
     {"id":{"name":"sHealthHUD","path":"sprites/sHealthHUD/sHealthHUD.yy",},"order":0,},
     {"id":{"name":"GoldenShroom","path":"sprites/GoldenShroom/GoldenShroom.yy",},"order":0,},
+    {"id":{"name":"oMinimap","path":"objects/oMinimap/oMinimap.yy",},"order":0,},
     {"id":{"name":"scrPosInCamera","path":"scripts/scrPosInCamera/scrPosInCamera.yy",},"order":0,},
     {"id":{"name":"oResourceHUD","path":"objects/oResourceHUD/oResourceHUD.yy",},"order":0,},
     {"id":{"name":"oEnemyHole","path":"objects/oEnemyHole/oEnemyHole.yy",},"order":0,},
