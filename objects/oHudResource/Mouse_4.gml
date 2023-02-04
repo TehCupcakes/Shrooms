@@ -29,4 +29,5 @@ if (global.money >= cost) {
 	var newInst = instance_create_layer(mouse_x, mouse_y, "Instances", instanceType)
 	newInst.placed = false
 	newInst.creator = id
+	global.heldShroom = newInst
 }
