@@ -12,7 +12,11 @@ if (view_current == 0 || view_current == 2) {
 		} else {
 			draw_set_alpha(0.3)
 			draw_set_color(c_red)
-			draw_circle(x, y, placementSpaceNeeded, false)
+			with (pStructure) {
+				if (id != other.id) {
+					draw_circle(x, y, other.placementSpaceNeeded, false)
+				}
+			}
 			if (!positionValid) {
 				draw_set_alpha(1)
 				draw_set_color(c_white)
