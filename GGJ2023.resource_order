@@ -17,6 +17,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oHudResource","order":2,"path":"objects/oHudResource/oHudResource.yy",},
+    {"name":"sRootSpread","order":2,"path":"sprites/sRootSpread/sRootSpread.yy",},
     {"name":"sResourceBg","order":1,"path":"sprites/sResourceBg/sResourceBg.yy",},
     {"name":"oMushroom","order":1,"path":"objects/oMushroom/oMushroom.yy",},
   ],

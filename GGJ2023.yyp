@@ -34,6 +34,7 @@
   "resources": [
     {"id":{"name":"oHudResource","path":"objects/oHudResource/oHudResource.yy",},"order":0,},
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},"order":0,},
+    {"id":{"name":"sRootSpread","path":"sprites/sRootSpread/sRootSpread.yy",},"order":0,},
     {"id":{"name":"sResourceBg","path":"sprites/sResourceBg/sResourceBg.yy",},"order":0,},
     {"id":{"name":"oMushroom","path":"objects/oMushroom/oMushroom.yy",},"order":0,},
     {"id":{"name":"sMushroom","path":"sprites/sMushroom/sMushroom.yy",},"order":0,},
