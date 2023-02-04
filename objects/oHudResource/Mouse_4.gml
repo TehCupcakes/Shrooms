@@ -13,6 +13,12 @@ else if (shroomType == ShroomType.GOLDEN) {
 else if (shroomType == ShroomType.SLEEPY) {
 	instanceType = oSleepy;
 }
+else if (shroomType == ShroomType.POPPY) {
+	instanceType = oPoppy;
+}
+else if (shroomType == ShroomType.TASTY) {
+	instanceType = oTasty;
+}
 
 if (global.money >= cost) {
 	global.money -= cost

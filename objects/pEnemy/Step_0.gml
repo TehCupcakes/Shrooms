@@ -1,4 +1,7 @@
-closestShroom = instance_nearest(x,y, oGoldenShroom);
+closestShroom = instance_nearest(x, y, oTasty);
+if (closestShroom == noone) {
+	closestShroom = instance_nearest(x,y, oGoldenShroom);
+}
 
 cur_spd = spd;
 

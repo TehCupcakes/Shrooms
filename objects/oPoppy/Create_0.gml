@@ -4,6 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-damageRange = 40;
-dmg = 3;
-scale = .5;
+damageRange = 120;
+dmg = .2;
+scale = 1.5;

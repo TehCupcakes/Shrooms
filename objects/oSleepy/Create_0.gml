@@ -6,5 +6,4 @@ event_inherited();
 
 damageRange = 120;
 dmg = .25;
-placementSpaceNeeded = 96;
 scale = 1.5;

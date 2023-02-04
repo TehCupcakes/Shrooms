@@ -18,5 +18,5 @@ global.money = 10
 
 if (!global.debug) {
 	randomize();
+	//audio_play_sound(snd_BackgroundMusic, 10, true);
 }
-audio_play_sound(snd_BackgroundMusic, 10, true);

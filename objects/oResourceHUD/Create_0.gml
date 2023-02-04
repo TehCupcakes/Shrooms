@@ -17,14 +17,26 @@ with(blaze) {
 	event_user(0);
 }
 
-var golden = instance_create_layer(hudWidth / 2, (hudPadding * 3) + (height * 2 ) + (height / 2), "HUD_FG", oHudResource)
-golden.shroomType = ShroomType.GOLDEN
-with(golden) {
+var sleepy = instance_create_layer(hudWidth / 2, (hudPadding * 3) + (height * 2) + (height / 2), "HUD_FG", oHudResource)
+sleepy.shroomType = ShroomType.SLEEPY
+with(sleepy) {
 	event_user(0);
 }
 
-var sleepy = instance_create_layer(hudWidth / 2, (hudPadding * 4) + (height * 3 ) + (height / 2), "HUD_FG", oHudResource)
-sleepy.shroomType = ShroomType.SLEEPY
-with(sleepy) {
+var poppy = instance_create_layer(hudWidth / 2, (hudPadding * 4) + (height * 3) + (height / 2), "HUD_FG", oHudResource)
+poppy.shroomType = ShroomType.POPPY
+with(poppy) {
+	event_user(0);
+}
+
+var tasty = instance_create_layer(hudWidth / 2, (hudPadding * 5) + (height * 4) + (height / 2), "HUD_FG", oHudResource)
+tasty.shroomType = ShroomType.TASTY
+with(tasty) {
+	event_user(0);
+}
+
+var golden = instance_create_layer(hudWidth / 2, (hudPadding * 7) + (height * 6) + (height / 2), "HUD_FG", oHudResource)
+golden.shroomType = ShroomType.GOLDEN
+with(golden) {
 	event_user(0);
 }

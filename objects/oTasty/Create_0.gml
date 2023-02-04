@@ -3,7 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-
-damageRange = 40;
-dmg = 3;
-scale = .5;
+maxHp = 60*3;
+hp = maxHp;
