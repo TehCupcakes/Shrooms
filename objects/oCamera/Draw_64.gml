@@ -28,13 +28,17 @@ draw_set_color(c_dkgray)
 draw_rectangle(guiWidth - hudWidth - minimapMargin - minimapWidth, guiHeight - minimapMargin - minimapHeight, guiWidth - hudWidth - minimapMargin, guiHeight - minimapMargin, false)
 
 // Camera region
+var percentageOfX = (camX - camMinX) / (camMaxX - camMinX)
+var percentageOfY = (camY - camMinY) / (camMaxY - camMinY)
 var camRegionXScale = playAreaWidth / (camMaxX - camMinX + playAreaWidth)
 var camRegionYScale = playAreaHeight / (camMaxY - camMinY + playAreaHeight)
-var camRegionX = guiWidth - hudWidth - minimapMargin - minimapWidth + (camX - camMinX) * camRegionXScale
-var camRegionY = guiHeight - minimapMargin - minimapHeight + (camY - camMinY) * camRegionYScale
+var camRegionWidth = minimapWidth * camRegionXScale
+var camRegionHeight = minimapHeight * camRegionYScale
+var camRegionX = guiWidth - hudWidth - minimapMargin - minimapWidth + (minimapWidth - camRegionWidth) * percentageOfX
+var camRegionY = guiHeight - minimapMargin - minimapHeight + (minimapHeight - camRegionHeight) * percentageOfY
 draw_set_color(c_white)
 draw_set_alpha(0.5)
-draw_rectangle(camRegionX, camRegionY, camRegionX + minimapWidth * camRegionXScale, camRegionY + minimapHeight * camRegionYScale, false)
+draw_rectangle(camRegionX, camRegionY, camRegionX + camRegionWidth, camRegionY + camRegionHeight, false)
 
 if (global.debug) {
 	draw_set_alpha(1)
