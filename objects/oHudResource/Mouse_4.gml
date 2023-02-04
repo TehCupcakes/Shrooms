@@ -1,10 +1,14 @@
-var instanceType = oMushroom
+var instanceType = pMushroom
 
 // Etc. Expand with new types
 if (shroomType == ShroomType.SHROOMY) {
-	instanceType = oMushroom
+	instanceType = oShroomy
 }
 
-// TODO: Check if you have enough resources first
-var newInst = instance_create_layer(mouse_x, mouse_y, "Instances", instanceType)
-newInst.placed = false
+if (global.money >= cost) {
+	global.money -= cost
+	var newInst = instance_create_layer(mouse_x, mouse_y, "Instances", instanceType, {
+		placed: false,
+	})
+	newInst.creator = id
+}
