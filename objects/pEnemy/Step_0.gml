@@ -11,7 +11,6 @@ with (oGoldenShroom) {
 		}
 	}
 }
-// closestShroom = instance_nearest(x,y, oGoldenShroom);
 
 cur_spd = spd;
 

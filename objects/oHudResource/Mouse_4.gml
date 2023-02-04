@@ -1,3 +1,7 @@
+if (global.colonyHealth <= 0) {
+	exit
+}
+
 var instanceType = pMushroom
 
 // Etc. Expand with new types
@@ -16,8 +20,7 @@ else if (shroomType == ShroomType.SLEEPY) {
 
 if (global.money >= cost) {
 	global.money -= cost
-	var newInst = instance_create_layer(mouse_x, mouse_y, "Instances", instanceType, {
-		placed: false,
-	})
+	var newInst = instance_create_layer(mouse_x, mouse_y, "Instances", instanceType)
+	newInst.placed = false
 	newInst.creator = id
 }
