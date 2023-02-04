@@ -1,2 +1,4 @@
 placed = false
-hp = 3 // Might change this idk
+damageRange = 80
+
+inRange = ds_list_create()
