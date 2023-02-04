@@ -4,6 +4,6 @@ function scrPosInPlayArea(xPos, yPos) {
 		return false;
 	}
 	with (oCamera) {
-		return xPos >= camMinX && xPos < camMaxX + playAreaWidth && yPos > camMinY && yPos < camMaxY + playAreaHeight
+		return xPos >= camMinX && xPos < camMaxX + playAreaWidth && yPos >= camMinY && yPos < camMaxY + playAreaHeight
 	}
 }

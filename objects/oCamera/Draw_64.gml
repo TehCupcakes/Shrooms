@@ -44,4 +44,7 @@ if (global.debug) {
 	draw_text(hudWidth + 8, 24, "CamY: " + string(camY))
 	draw_text(hudWidth + 8, 40, "CamMaxX: " + string(camMaxX))
 	draw_text(hudWidth + 8, 56, "CamMaxY: " + string(camMaxY))
+	
+	draw_text(hudWidth + 8, 72, "Mouse X: " + string(mouse_x))
+	draw_text(hudWidth + 8, 88, "Mouse Y: " + string(mouse_y))
 }

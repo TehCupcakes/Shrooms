@@ -1,2 +1,3 @@
-resourceType = ResourceType.MUSHROOM
-resourceSprite = sMushroom
+shroomType = ShroomType.SHROOMY
+shroomSprite = sMushroom
+cost = 1

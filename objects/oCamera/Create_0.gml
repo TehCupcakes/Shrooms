@@ -1,9 +1,9 @@
-playAreaHeight = 900
-playAreaWidth = 1424 // our window is 1600x900, but we have HUD on both sides. 1600 - 88 * 2 = 1424
+playAreaHeight = camera_get_view_height(view_camera[0])
+playAreaWidth = camera_get_view_width(view_camera[0]) // our window is 1600x900, but we have HUD on both sides. 1600 - 88 * 2 = 1424
 camMinX = 400
-camMaxX = room_width - camMinX - playAreaWidth // Example default
+camMaxX = room_width - camMinX - playAreaWidth
 camMinY = 0
-camMaxY = room_height - playAreaHeight // Example default
+camMaxY = room_height - playAreaHeight
 
 // Start in the middle of the room
 camX = (camMaxX - camMinX + playAreaWidth) / 2

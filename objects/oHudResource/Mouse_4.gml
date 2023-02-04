@@ -1,7 +1,7 @@
 var instanceType = oMushroom
 
 // Etc. Expand with new types
-if (resourceType == ResourceType.MUSHROOM) {
+if (shroomType == ShroomType.SHROOMY) {
 	instanceType = oMushroom
 }
 

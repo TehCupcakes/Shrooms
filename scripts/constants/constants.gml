@@ -1,3 +1,7 @@
-enum ResourceType {
-	MUSHROOM
+enum ShroomType {
+	SHROOMY,
+	POPPY,
+	SLEEPY,
+	BLAZE,
+	TASTY,
 }

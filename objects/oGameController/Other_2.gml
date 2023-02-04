@@ -13,3 +13,5 @@ global.inputs = {
 	left: false,
 	right: false
 }
+
+global.money = 10
