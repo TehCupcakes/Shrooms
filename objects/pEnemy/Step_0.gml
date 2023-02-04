@@ -42,6 +42,10 @@ if (closestShroom != noone) {
 		mp_potential_step_object(closestShroom.x, closestShroom.y, cur_spd, pWall);
 	}
 	else {
+		curDmg = dmg;
+		if (closestShroom.buffed) {
+			curDmg /= 2;
+		}
 		closestShroom.hp -= dmg;
 	}
 }
