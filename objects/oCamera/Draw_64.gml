@@ -17,29 +17,6 @@ if (camY < camMaxY) {
 	draw_sprite_ext(sArrow, 0, guiWidth / 2, guiHeight - 8, arrowScale, arrowScale, 270, c_white, 1) // Down
 }
 
-// Minimap?!
-var minimapWidth = 240
-var minimapHeight = 135
-var minimapMargin = 32
-
-// Background
-draw_set_alpha(0.75)
-draw_set_color(c_dkgray)
-draw_rectangle(guiWidth - hudWidth - minimapMargin - minimapWidth, guiHeight - minimapMargin - minimapHeight, guiWidth - hudWidth - minimapMargin, guiHeight - minimapMargin, false)
-
-// Camera region
-var percentageOfX = (camX - camMinX) / (camMaxX - camMinX)
-var percentageOfY = (camY - camMinY) / (camMaxY - camMinY)
-var camRegionXScale = playAreaWidth / (camMaxX - camMinX + playAreaWidth)
-var camRegionYScale = playAreaHeight / (camMaxY - camMinY + playAreaHeight)
-var camRegionWidth = minimapWidth * camRegionXScale
-var camRegionHeight = minimapHeight * camRegionYScale
-var camRegionX = guiWidth - hudWidth - minimapMargin - minimapWidth + (minimapWidth - camRegionWidth) * percentageOfX
-var camRegionY = guiHeight - minimapMargin - minimapHeight + (minimapHeight - camRegionHeight) * percentageOfY
-draw_set_color(c_white)
-draw_set_alpha(0.5)
-draw_rectangle(camRegionX, camRegionY, camRegionX + camRegionWidth, camRegionY + camRegionHeight, false)
-
 if (global.debug) {
 	draw_set_alpha(1)
 	draw_set_halign(fa_left)
