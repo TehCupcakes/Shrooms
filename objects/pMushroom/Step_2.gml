@@ -13,7 +13,8 @@ if (!placed) {
 			placed = true
 			event_user(0)
 		} else {
-			// Cancel placement if player released in sidebar
+			// Cancel placement if player released in sidebar and refund money
+			global.money += creator.cost
 			instance_destroy()
 		}
 	}
