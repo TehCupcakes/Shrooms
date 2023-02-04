@@ -1,1 +1,8 @@
-global.colonyHealth = clamp(instance_number(oGoldenShroom) * 10, 0, 100)
+var shroomsLeft = 0
+with (oGoldenShroom) {
+	if (placed) {
+		shroomsLeft++
+	}
+}
+
+global.colonyHealth = clamp(shroomsLeft * 10, 0, 100)

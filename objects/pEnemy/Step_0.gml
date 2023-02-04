@@ -1,4 +1,16 @@
-closestShroom = instance_nearest(x,y, oGoldenShroom);
+// Find the closest golden shroom that is PLACED
+var closestShroom = noone
+var closestDist = 10000000
+with (oGoldenShroom) {
+	// Ignore any shrooms that aren't placed
+	if (placed) {
+		var currentDist = distance_to_object(other)
+		if (closestShroom == noone || currentDist < closestDist) {
+			closestShroom = self
+			closestDist = currentDist
+		}
+	}
+}
 
 cur_spd = spd;
 
