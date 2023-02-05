@@ -22,12 +22,18 @@ if (instance_exists(oCamera)) {
 	draw_rectangle(camRegionX, camRegionY, camRegionX + camRegionWidth, camRegionY + camRegionHeight, false)
 	
 	// Draw instance representations on map
+	draw_set_color(c_green)
+	draw_set_alpha(.75)
+	with (pMushroom) {
+		var mapPos = scrPlotPosToMinimap(x, y)
+		draw_circle(other.minimapGuiX + mapPos.xVal, other.minimapGuiY + mapPos.yVal, 2, false)
+	}
 	draw_set_alpha(1)
 	// Golden mushrooms :)
 	draw_set_color(c_yellow)
 	with (oGoldenShroom) {
 		var mapPos = scrPlotPosToMinimap(x, y)
-		draw_circle(other.minimapGuiX + mapPos.xVal, other.minimapGuiY + mapPos.yVal, 3, false)
+		draw_circle(other.minimapGuiX + mapPos.xVal, other.minimapGuiY + mapPos.yVal, 4, false)
 	}
 	// Holes
 	draw_set_color(c_red)
