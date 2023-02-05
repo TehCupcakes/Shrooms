@@ -1,6 +1,6 @@
 placed = false
 creator = noone
-placementSpaceNeeded = 32
+placementSpaceNeeded = 64
 positionValid = false
 scale = 1;
 damageRange = 0;
