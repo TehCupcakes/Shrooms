@@ -14,6 +14,7 @@ if (hp > 0 && !global.paused) {
 			curDmg /= 2;
 		}
 		
+		shroom.damaged = true;
 		shroom.hp -= curDmg;
 	}
 }

@@ -51,7 +51,21 @@ if (closestShroom != noone) {
 			curDmg /= 2;
 		}
 		closestShroom.hp -= dmg;
+		closestShroom.damaged = true;
 	}
+}
+
+if (damaged && flashAlpha == 0) {
+	flashAlpha = 1;
+}
+
+if (flashAlpha > 0) {
+	flashAlpha -= .05;
+}
+
+if (damaged && flashAlpha <= 0) {
+	damaged = false;
+	flashAlpha = 0;
 }
 
 if (hp < 0) {

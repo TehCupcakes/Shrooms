@@ -8,5 +8,8 @@ maxHp = 400;
 hp = maxHp;
 buffed = false;
 drawHealthbar = true;
+damaged = false;
+flashAlpha = 0;
+flashColor = c_red;
 
 scrDepthSetDynamic()

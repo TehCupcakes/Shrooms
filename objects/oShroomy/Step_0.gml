@@ -2,6 +2,7 @@
 event_inherited();
 image_speed = 0
 if (placed && hp > 0) {
+	var damaged = false;
 	ds_list_clear(inRange)
 	collision_circle_list(x, y, damageRange, pEnemy, false, true, inRange, false)
 	for (var i = 0; i < ds_list_size(inRange); i++) {
@@ -13,8 +14,14 @@ if (placed && hp > 0) {
 		}
 		
 		enemy.hp -= cur_dmg;
-		hp -= max(.5, dmg / 2);
+		enemy.damaged = true;
+		damaged = true;
 		image_speed = 2
+	}
+	
+	if (damaged) {
+		hp -= dmg / 2;
+		damaged = false;
 	}
 }
 
