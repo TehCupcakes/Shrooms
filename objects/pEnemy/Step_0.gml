@@ -39,7 +39,7 @@ if (slowed) {
 
 if (closestShroom != noone) {
 	if (point_distance(x, y, closestShroom.x, closestShroom.y) > stop_threshold) {
-		mp_potential_step_object(closestShroom.x, closestShroom.y, cur_spd, pWall);
+		mp_potential_step_object(closestShroom.x, closestShroom.y, cur_spd, pMushroom);
 	}
 	else {
 		curDmg = dmg;

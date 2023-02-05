@@ -13,7 +13,7 @@ if (placed && hp > 0) {
 		}
 		
 		enemy.hp -= cur_dmg;
-		hp -= dmg / 2;
+		hp -= max(.5, dmg / 2);
 		image_speed = 2
 	}
 }

@@ -3,7 +3,8 @@
 
 // Inherit the parent event
 event_inherited();
-spd = 1;
-shroomsInRange = ds_list_create();
-damageRange = 20;
-dmg = 1.5;
+maxHp = 60*9;
+hp = maxHp;
+placementSpaceNeeded = 16;
+damageRange = 32;
+dmg = .1;

@@ -4,5 +4,6 @@ enum ShroomType {
 	SLEEPY,
 	BLAZE,
 	TASTY,
-	GOLDEN
+	GOLDEN,
+	STUMPY
 }

@@ -35,7 +35,13 @@ with(tasty) {
 	event_user(0);
 }
 
-var golden = instance_create_layer(hudWidth / 2, (hudPadding * 7) + (height * 6) + (height / 2), "HUD_FG", oHudResource)
+var stumpy = instance_create_layer(hudWidth / 2, (hudPadding * 6) + (height * 5) + (height / 2), "HUD_FG", oHudResource)
+stumpy.shroomType = ShroomType.STUMPY
+with(stumpy) {
+	event_user(0);
+}
+
+var golden = instance_create_layer(hudWidth / 2, (hudPadding * 8) + (height * 7) + (height / 2), "HUD_FG", oHudResource)
 golden.shroomType = ShroomType.GOLDEN
 with(golden) {
 	event_user(0);

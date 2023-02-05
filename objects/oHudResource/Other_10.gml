@@ -18,4 +18,7 @@ if (shroomType == ShroomType.SHROOMY) {
 } else if (shroomType == ShroomType.TASTY) {
 	shroomSprite = Tasty;
 	cost = 3;
+} else if (shroomType == ShroomType.STUMPY) {
+	shroomSprite = sStump;
+	cost = 1;
 }
