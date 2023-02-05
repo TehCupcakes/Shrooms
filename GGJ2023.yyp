@@ -39,6 +39,7 @@
     "IDEVersion": "2023.1.0.58",
   },
   "resources": [
+    {"id":{"name":"snd_EatingGoldenShroom","path":"sounds/snd_EatingGoldenShroom/snd_EatingGoldenShroom.yy",},"order":0,},
     {"id":{"name":"scrPlotPosToMinimap","path":"scripts/scrPlotPosToMinimap/scrPlotPosToMinimap.yy",},"order":0,},
     {"id":{"name":"SmallPond","path":"sprites/SmallPond/SmallPond.yy",},"order":0,},
     {"id":{"name":"scrDepthSetDynamic","path":"scripts/scrDepthSetDynamic/scrDepthSetDynamic.yy",},"order":0,},
