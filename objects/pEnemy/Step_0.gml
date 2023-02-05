@@ -63,6 +63,11 @@ if (closestShroom != noone) {
 		}
 		closestShroom.hp -= dmg;
 		closestShroom.damaged = true;
+		
+		if(!audio_is_playing(snd_EatingGoldenShroom))
+		{
+			audio_play_sound(snd_EatingGoldenShroom, 10, false)
+		}
 	}
 }
 
