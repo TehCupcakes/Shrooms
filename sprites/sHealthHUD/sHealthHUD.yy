@@ -13,8 +13,8 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2e2177c9-f26e-41ba-8315-44a2a51a3294",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4ba4c3ee-fada-4839-856f-bccf1e8d3a0c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fb82d784-ed4b-4f3b-9e17-20d38c5908f2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"031d0fc3-ab44-4948-8c01-281e337ea5f6",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2e2177c9-f26e-41ba-8315-44a2a51a3294","path":"sprites/sHealthHUD/sHealthHUD.yy",},},},"Disabled":false,"id":"07a4dd47-6d06-4336-86e8-89bf496017c9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4ba4c3ee-fada-4839-856f-bccf1e8d3a0c","path":"sprites/sHealthHUD/sHealthHUD.yy",},},},"Disabled":false,"id":"80960277-e8e2-4523-86b3-2c32c47173c5","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fb82d784-ed4b-4f3b-9e17-20d38c5908f2","path":"sprites/sHealthHUD/sHealthHUD.yy",},},},"Disabled":false,"id":"542da566-db07-439f-aeb0-31f76a744ff2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"031d0fc3-ab44-4948-8c01-281e337ea5f6","path":"sprites/sHealthHUD/sHealthHUD.yy",},},},"Disabled":false,"id":"e89113eb-5306-4186-8eeb-706268c6cb28","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
