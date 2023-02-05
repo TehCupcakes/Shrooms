@@ -3,4 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-spd = 1.25;
+spd = 1.35;
+image_speed = .5;

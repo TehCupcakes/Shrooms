@@ -17,5 +17,5 @@ if (enabled) {
 	draw_set_alpha(1);
 	draw_set_font(fntDefault);
 	draw_set_halign(fa_left);
-	draw_text(startX + 10, my + 10, nameText + "\n" + damageText + "\n" + radiusText + "\n\n" + descriptionText);
+	draw_text(startX + 10, my + 10, tooltipText);
 }

@@ -3,12 +3,15 @@
   "resourceVersion": "1.0",
   "name": "snd_SquirrelSqueak",
   "audioGroupId": {
-    "name": "audioSfx",
-    "path": "audiogroups/audioSfx",
+    "name": "audiogroup_default",
+    "path": "audiogroups/audiogroup_default",
   },
   "bitDepth": 1,
   "bitRate": 128,
   "compression": 0,
+  "ConfigValues": {
+    "debug": {"audioGroupId":"{\"name\":\"audioSfx\",\"path\":\"audiogroups/audioSfx\"}",},
+  },
   "conversionMode": 0,
   "duration": 0.444082,
   "parent": {

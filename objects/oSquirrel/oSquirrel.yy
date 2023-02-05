@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Squirrel",
-    "path": "sprites/Squirrel/Squirrel.yy",
+    "name": "Squirrel_Sheet",
+    "path": "sprites/Squirrel_Sheet/Squirrel_Sheet.yy",
   },
   "spriteMaskId": null,
   "visible": true,

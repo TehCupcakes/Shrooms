@@ -47,6 +47,13 @@ if (slowed) {
 
 if (closestShroom != noone) {
 	if (point_distance(x, y, closestShroom.x, closestShroom.y) > stop_threshold) {
+		var dir = point_direction(x, y, closestShroom.x, closestShroom.y);
+		if (dir > 90 && dir < 270){
+			image_xscale = 1;
+		}
+		else {
+			image_xscale = -1;
+		}
 		mp_potential_step_object(closestShroom.x, closestShroom.y, cur_spd, pMushroom);
 	}
 	else {
