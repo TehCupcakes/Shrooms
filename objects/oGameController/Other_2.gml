@@ -22,3 +22,8 @@ audio_group_set_gain(audioSfx, global.sfxVolume, 0)
 
 audio_group_load(audioMusic)
 audio_group_load(audioSfx)
+
+
+// Toggle the "press enter" text
+textBlink = false
+alarm[0] = 45
