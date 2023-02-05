@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "snd_SlugSplat",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audioSfx",
+    "path": "audiogroups/audioSfx",
   },
   "bitDepth": 1,
   "bitRate": 128,

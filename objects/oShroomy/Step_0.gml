@@ -1,7 +1,7 @@
 // Check for enemies in range to damage
 event_inherited();
 image_speed = 0
-if (placed && hp > 0) {
+if (placed && hp > 0 && !global.paused) {
 	var damaged = false;
 	ds_list_clear(inRange)
 	collision_circle_list(x, y, damageRange, pEnemy, false, true, inRange, false)
