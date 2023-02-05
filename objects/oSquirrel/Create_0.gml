@@ -5,3 +5,4 @@
 event_inherited();
 spd = 1.35;
 imgSpeed = .5;
+hp = 100;

@@ -3,6 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-minRange = 150;
-maxRange = 750;
+minRange = 400;
+maxRange = 1200;
 frequency = 60*15;

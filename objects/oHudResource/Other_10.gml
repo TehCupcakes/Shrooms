@@ -2,14 +2,14 @@
 /// Use this to set up variables like cost based on resource type
 if (shroomType == ShroomType.SHROOMY) {
 	shroomSprite = sMushroom
-	cost = 2;
+	cost = 3;
 	nameText = "Shroomy";
 	damageText = "Damage: 1";
 	radiusText = "Radius: 60";
 	descriptionText = "Shroomy is your basic shroom. He does damage to enemies\nwithin a radius.";
 } else if (shroomType == ShroomType.BLAZE) {
 	shroomSprite = BlazeShroom;
-	cost = 5;
+	cost = 4;
 	nameText = "Blaze";
 	damageText = "Damage: 2";
 	radiusText = "Radius: 40";
@@ -23,21 +23,21 @@ if (shroomType == ShroomType.SHROOMY) {
 	descriptionText = "Golden Shrooms are the most sought after shrooms.\nEnemies will try to eat them; protect them at all costs!\nWhen you get 10 Golden Shrooms, you win!";
 } else if (shroomType == ShroomType.SLEEPY) {
 	shroomSprite = SleepyShroom;
-	cost = 7;
+	cost = 5;
 	nameText = "Sleepy";
 	damageText = "Damage: .25";
 	radiusText = "Radius: 120";
 	descriptionText = "Sleepy will make enemies sleepy. Enemies within its radius\nwill travel at half speed.";
 } else if (shroomType == ShroomType.POPPY) {
 	shroomSprite = PoppyShroom;
-	cost = 8;
+	cost = 7;
 	nameText = "Poppy";
 	damageText = "Damage: 0";
 	radiusText = "Radius: 120";
 	descriptionText = "Poppy will double the damage of all shrooms and double\nthe defense of Tasty Shrooms and Golden Shrooms within\nits radius.";
 } else if (shroomType == ShroomType.TASTY) {
 	shroomSprite = Tasty;
-	cost = 3;
+	cost = 2;
 	nameText = "Tasty";
 	damageText = "Traits: Attractive ;)";
 	radiusText = "Radius: Infinite";

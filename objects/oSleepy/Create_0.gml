@@ -7,3 +7,5 @@ event_inherited();
 damageRange = 120;
 dmg = .25;
 scale = 1.5;
+maxHp = 600;
+hp = maxHp;
