@@ -15,7 +15,6 @@ global.inputs = {
 	pause: false,
 }
 
-// TODO: Adjust these before release
 global.bgmVolume = global.debug ? 0 : 0.5
 global.sfxVolume = 0.5
 audio_group_set_gain(audioMusic, global.bgmVolume, 0)

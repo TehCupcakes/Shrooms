@@ -1,3 +1,7 @@
+if (room == rmStart) {
+	exit
+}
+
 if (global.colonyHealth >= WIN_SHROOM_COUNT) {
 	scrEndGame(true)
 	exit

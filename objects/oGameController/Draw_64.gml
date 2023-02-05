@@ -1,3 +1,7 @@
+if (room == rmStart) {
+	exit
+}
+
 // DEBUG
 if (global.debug) {
 	draw_set_alpha(1)

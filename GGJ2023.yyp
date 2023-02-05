@@ -114,6 +114,7 @@
     {"id":{"name":"snd_ResourceCollected","path":"sounds/snd_ResourceCollected/snd_ResourceCollected.yy",},"order":0,},
     {"id":{"name":"snd_ResourceCollect","path":"sounds/snd_ResourceCollect/snd_ResourceCollect.yy",},"order":0,},
     {"id":{"name":"scrEndGame","path":"scripts/scrEndGame/scrEndGame.yy",},"order":0,},
+    {"id":{"name":"sSplash","path":"sprites/sSplash/sSplash.yy",},"order":0,},
     {"id":{"name":"oPlusOne","path":"objects/oPlusOne/oPlusOne.yy",},"order":0,},
     {"id":{"name":"pStructure","path":"objects/pStructure/pStructure.yy",},"order":0,},
     {"id":{"name":"sShroomsMiniLogo","path":"sprites/sShroomsMiniLogo/sShroomsMiniLogo.yy",},"order":0,},
@@ -123,10 +124,12 @@
     {"id":{"name":"constants","path":"scripts/constants/constants.yy",},"order":0,},
     {"id":{"name":"snd_SlugSplat","path":"sounds/snd_SlugSplat/snd_SlugSplat.yy",},"order":0,},
     {"id":{"name":"sGrass","path":"sprites/sGrass/sGrass.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},"order":0,},
+    {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},},
+    {"roomId":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

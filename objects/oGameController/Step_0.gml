@@ -1,3 +1,7 @@
 if (global.inputs.pause && !global.gameComplete) {
-	global.paused = !global.paused
+	if (room == rmGame) {
+		global.paused = !global.paused
+	} else {
+		room_goto(rmGame)
+	}
 }
