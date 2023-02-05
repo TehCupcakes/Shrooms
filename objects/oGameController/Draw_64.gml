@@ -17,12 +17,24 @@ if (global.paused) {
 	draw_set_alpha(1)
 	draw_set_font(fntGameOver)
 	draw_set_halign(fa_center)
-	var isGameOver = global.colonyHealth <= 0
-	var str = (isGameOver ? "Game Over" : "Paused")
+	var str = "Paused"
+	if (global.gameComplete) {
+		str = global.win ? "You Win!" : "Game Over"
+	}
 	draw_text(display_get_gui_width() / 2, display_get_gui_height() / 3, str)
 	
-	if (isGameOver) {
+	if (global.gameComplete) {
+		var timePlayedStr = scrFramesToTimeString(global.timePlayed)
 		draw_set_font(fntDefault)
+		draw_text(display_get_gui_width() / 2, display_get_gui_height() / 3 + 96, (global.win ? "Clear Time: " : "Time Survived: ") + timePlayedStr)
 		draw_text(display_get_gui_width() / 2, display_get_gui_height() / 3 + 120, "Press \"R\" to restart")
 	}
+}
+
+if (!global.gameComplete) {
+	draw_set_alpha(0.8)
+	draw_set_color(c_white)
+	draw_set_halign(fa_center)
+	draw_set_font(fntDefault)
+	draw_text_transformed(display_get_gui_width() / 2, 24, scrFramesToTimeString(global.timePlayed), 3, 3, 0)
 }

@@ -1,7 +1,7 @@
 /// @description One time set up
 game_set_speed(60, gamespeed_fps)
 
-global.colonyHealth = 100
+global.colonyHealth = 1
 global.displayHeight = 900
 global.displayWidth = 1600
 

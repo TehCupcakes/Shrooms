@@ -7,3 +7,5 @@ enum ShroomType {
 	GOLDEN,
 	STUMPY
 }
+
+#macro WIN_SHROOM_COUNT 10

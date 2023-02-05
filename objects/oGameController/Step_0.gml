@@ -1,3 +1,3 @@
-if (global.inputs.pause && global.colonyHealth > 0) {
+if (global.inputs.pause && !global.gameComplete) {
 	global.paused = !global.paused
 }
