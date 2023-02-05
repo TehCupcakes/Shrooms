@@ -18,4 +18,7 @@ if (global.colonyHealth <= 0) {
 	draw_set_font(fntGameOver)
 	draw_set_halign(fa_center)
 	draw_text(display_get_gui_width() / 2, display_get_gui_height() / 3, "Game Over")
+	
+	draw_set_font(fntDefault)
+	draw_text(display_get_gui_width() / 2, display_get_gui_height() / 3 + 120, "Press \"R\" to restart")
 }

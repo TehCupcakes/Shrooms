@@ -3,6 +3,9 @@ camY = camera_get_view_y(view_camera[0])
 
 // Do ALL camera reposition logic here
 var camSpeed = 6
+if (keyboard_check(vk_shift)) {
+	camSpeed *= 2
+}
 var hdir = global.inputs.right - global.inputs.left
 var vdir = global.inputs.down - global.inputs.up
 if ((hdir != 0 || vdir != 0) && (!instance_exists(oMinimap) || !oMinimap.moveToPoint)) {

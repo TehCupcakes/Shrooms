@@ -1,7 +1,7 @@
 var inSidebar = mouse_x >= 0 && mouse_x <= 88
 var inPlayArea = scrPosInCamera(mouse_x, mouse_y)
 
-if (!placed) {
+if (!placed && !global.paused) {
 	// If it is in the resource HUD sidebar OR the play area
 	if (inSidebar || inPlayArea) {
 		x = mouse_x
@@ -23,4 +23,8 @@ if (!placed) {
 			instance_destroy()
 		}
 	}
+}
+
+if (global.paused) {
+	image_speed = 0
 }
