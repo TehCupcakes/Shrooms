@@ -7,6 +7,7 @@ if (global.paused) {
 		global.money++;
 		instance_destroy();
 		instance_create_depth(x,y,-10000,oNutrientsCollect);
+		instance_create_depth(x, y, -10001, oPlusOne);
 		audio_play_sound(snd_ResourceCollect, 10, false)
 	}
 }

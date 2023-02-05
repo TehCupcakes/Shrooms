@@ -4,4 +4,6 @@ if (!global.gameComplete) {
 	if (coinFlip == 1) {
 		instance_create_depth(x, y, -10000, oNutrients);
 	}
+	
+	instance_create_depth(x, y, -10001, oPlusOne);
 }

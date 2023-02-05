@@ -26,6 +26,7 @@
     {"name":"inst_78980C23","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_461F5B55","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7BB53C17","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_77996625","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -47,6 +48,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_78980C23","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPond","path":"objects/oPond/oPond.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1504.0,"y":56.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_461F5B55","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPond","path":"objects/oPond/oPond.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2516.0,"y":2756.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7BB53C17","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPond","path":"objects/oPond/oPond.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":572.0,"y":2188.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_77996625","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPond","path":"objects/oPond/oPond.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2400.0,"y":1756.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"FX","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3DCD6156","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oTooltip","path":"objects/oTooltip/oTooltip.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":0.0,},

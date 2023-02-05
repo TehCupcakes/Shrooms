@@ -5,6 +5,7 @@
 event_inherited();
 maxHp = 60*9;
 hp = maxHp;
-placementSpaceNeeded = 32;
+placementSpaceNeeded = 20;
 damageRange = 30;
 dmg = .1;
+scale = .5;
