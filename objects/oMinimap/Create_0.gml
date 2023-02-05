@@ -1,5 +1,5 @@
-minimapWidth = 240
-minimapHeight = 135
+minimapWidth = 346
+minimapHeight = 338
 minimapMargin = 32
 
 hudWidth = 88
