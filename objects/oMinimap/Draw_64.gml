@@ -31,7 +31,7 @@ if (instance_exists(oCamera)) {
 	}
 	// Holes
 	draw_set_color(c_olive)
-	with (oEnemyHole) {
+	with (pEnemyHome) {
 		var mapPos = scrPlotPosToMinimap(x, y)
 		draw_circle(other.minimapGuiX + mapPos.xVal, other.minimapGuiY + mapPos.yVal, 2, false)
 	}

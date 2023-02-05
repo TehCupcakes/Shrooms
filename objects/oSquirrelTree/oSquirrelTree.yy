@@ -1,11 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oEnemyHole",
+  "name": "oSquirrelTree",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -14,8 +12,8 @@
     "path": "folders/Objects/Enemies.yy",
   },
   "parentObjectId": {
-    "name": "pStructure",
-    "path": "objects/pStructure/pStructure.yy",
+    "name": "pEnemyHome",
+    "path": "objects/pEnemyHome/pEnemyHome.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -33,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "EnemyHole",
-    "path": "sprites/EnemyHole/EnemyHole.yy",
+    "name": "SquirrelHome",
+    "path": "sprites/SquirrelHome/SquirrelHome.yy",
   },
   "spriteMaskId": null,
   "visible": true,

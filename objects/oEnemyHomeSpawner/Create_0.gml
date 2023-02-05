@@ -3,7 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-objToSpawn = oEnemyHole;
 minRange = 150;
 maxRange = 350;
 frequency = 60*15;

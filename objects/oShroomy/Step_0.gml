@@ -20,8 +20,9 @@ if (placed && hp > 0) {
 	}
 	
 	if (damaged) {
-		hp -= dmg / 2;
+		hp -= max(.5, dmg / 2);
 		damaged = false;
+		
 	}
 }
 
