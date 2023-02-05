@@ -54,7 +54,7 @@ if (closestShroom != noone) {
 		else {
 			image_xscale = -1;
 		}
-		mp_potential_step_object(closestShroom.x, closestShroom.y, cur_spd, pMushroom);
+		mp_potential_step_object(closestShroom.x, closestShroom.y, cur_spd, pWall);
 	}
 	else {
 		curDmg = dmg;

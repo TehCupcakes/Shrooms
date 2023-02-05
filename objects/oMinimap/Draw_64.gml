@@ -27,13 +27,13 @@ if (instance_exists(oCamera)) {
 	draw_set_color(c_yellow)
 	with (oGoldenShroom) {
 		var mapPos = scrPlotPosToMinimap(x, y)
-		draw_circle(other.minimapGuiX + mapPos.xVal, other.minimapGuiY + mapPos.yVal, 2, false)
+		draw_circle(other.minimapGuiX + mapPos.xVal, other.minimapGuiY + mapPos.yVal, 3, false)
 	}
 	// Holes
-	draw_set_color(c_olive)
+	draw_set_color(c_red)
 	with (pEnemyHome) {
 		var mapPos = scrPlotPosToMinimap(x, y)
-		draw_circle(other.minimapGuiX + mapPos.xVal, other.minimapGuiY + mapPos.yVal, 2, false)
+		draw_circle(other.minimapGuiX + mapPos.xVal, other.minimapGuiY + mapPos.yVal, 4, false)
 	}
 	// Enemies
 	draw_set_color(c_red)

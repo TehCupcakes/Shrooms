@@ -17,8 +17,8 @@
     "path": "folders/Objects/Shrooms.yy",
   },
   "parentObjectId": {
-    "name": "pStructure",
-    "path": "objects/pStructure/pStructure.yy",
+    "name": "pWall",
+    "path": "objects/pWall/pWall.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
