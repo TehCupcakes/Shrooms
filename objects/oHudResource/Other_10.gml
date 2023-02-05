@@ -5,7 +5,7 @@ if (shroomType == ShroomType.SHROOMY) {
 	cost = 3;
 } else if (shroomType == ShroomType.BLAZE) {
 	shroomSprite = BlazeShroom;
-	cost = 5;
+	cost = 6;
 } else if (shroomType == ShroomType.GOLDEN) {
 	shroomSprite = GoldenShroom;
 	cost = 10;
@@ -17,5 +17,5 @@ if (shroomType == ShroomType.SHROOMY) {
 	cost = 8;
 } else if (shroomType == ShroomType.TASTY) {
 	shroomSprite = Tasty;
-	cost = 6;
+	cost = 4;
 }
