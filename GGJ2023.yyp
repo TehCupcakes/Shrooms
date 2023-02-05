@@ -61,6 +61,7 @@
     {"id":{"name":"Slug","path":"sprites/Slug/Slug.yy",},"order":0,},
     {"id":{"name":"snd_SquirrelSqueak","path":"sounds/snd_SquirrelSqueak/snd_SquirrelSqueak.yy",},"order":0,},
     {"id":{"name":"SleepyShroom","path":"sprites/SleepyShroom/SleepyShroom.yy",},"order":0,},
+    {"id":{"name":"scrRestart","path":"scripts/scrRestart/scrRestart.yy",},"order":0,},
     {"id":{"name":"Tasty","path":"sprites/Tasty/Tasty.yy",},"order":0,},
     {"id":{"name":"oStump","path":"objects/oStump/oStump.yy",},"order":0,},
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},"order":0,},
