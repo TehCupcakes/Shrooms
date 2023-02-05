@@ -52,6 +52,7 @@
     {"id":{"name":"GoldenShroom","path":"sprites/GoldenShroom/GoldenShroom.yy",},"order":0,},
     {"id":{"name":"oSquirrelTree","path":"objects/oSquirrelTree/oSquirrelTree.yy",},"order":0,},
     {"id":{"name":"snd_BackgroundMusic","path":"sounds/snd_BackgroundMusic/snd_BackgroundMusic.yy",},"order":0,},
+    {"id":{"name":"oTooltip","path":"objects/oTooltip/oTooltip.yy",},"order":0,},
     {"id":{"name":"oTasty","path":"objects/oTasty/oTasty.yy",},"order":0,},
     {"id":{"name":"fntDefault","path":"fonts/fntDefault/fntDefault.yy",},"order":0,},
     {"id":{"name":"oNutrientsCollect","path":"objects/oNutrientsCollect/oNutrientsCollect.yy",},"order":0,},

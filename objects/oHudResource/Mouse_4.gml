@@ -2,11 +2,11 @@ if (global.paused) {
 	exit
 }
 
-var instanceType = pMushroom
+instanceType = pMushroom;
 
 // Etc. Expand with new types
 if (shroomType == ShroomType.SHROOMY) {
-	instanceType = oShroomy
+	instanceType = oShroomy;
 }
 else if (shroomType == ShroomType.BLAZE) {
 	instanceType = oBlaze;
@@ -26,7 +26,6 @@ else if (shroomType == ShroomType.TASTY) {
 else if (shroomType == ShroomType.STUMPY) {
 	instanceType = oStumpy;
 }
-
 
 if (global.money >= cost) {
 	global.money -= cost

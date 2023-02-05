@@ -3,8 +3,15 @@ if (global.colonyHealth <= 0) {
 	exit
 }
 
-newX = irandom_range(minRange, maxRange) * choose(1,-1);
-newY = irandom_range(minRange, maxRange) * choose(1,-1);
-
-objSpawned = instance_create_layer(oCamera.centerX + newX, oCamera.centerY + newY, "Instances", objToSpawn);
-alarm[0] = frequency;
+var foundSpot = false;
+while (!foundSpot) {
+	newX = oCamera.centerX  + (irandom_range(minRange, maxRange) * choose(1,-1));
+	newY = oCamera.centerY + (irandom_range(minRange, maxRange) * choose(1,-1));
+	
+	var collisionObject = collision_rectangle(newX - 16, newY - 16, newX + 16, newY + 16, pStructure, false, false);
+	if (collisionObject == noone) {
+		objSpawned = instance_create_layer(newX, newY, "Instances", objToSpawn);
+		alarm[0] = frequency;
+		foundSpot = true;
+	}
+}
