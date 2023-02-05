@@ -1,3 +1,8 @@
+if (global.colonyHealth <= 0) {
+	instance_destroy()
+	exit
+}
+
 newX = irandom_range(minRange, maxRange) * choose(1,-1);
 newY = irandom_range(minRange, maxRange) * choose(1,-1);
 
