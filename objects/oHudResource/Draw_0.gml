@@ -5,6 +5,7 @@ draw_sprite(sprite_index, disabled, x, y)
 draw_sprite(shroomSprite, 0, x, y - 8)
 
 draw_set_color(c_black)
+draw_set_font(fntDefault)
 draw_set_halign(fa_center)
 draw_text(x, y + 8, string(cost))
 

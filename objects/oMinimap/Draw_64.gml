@@ -46,6 +46,7 @@ if (instance_exists(oCamera)) {
 if (global.debug) {
 	draw_set_alpha(1)
 	draw_set_color(c_white)
+	draw_set_font(fntDefault)
 	draw_set_halign(fa_left)
 	draw_text(minimapGuiX, minimapGuiY + minimapHeight + 4, "Hovering minimap:" + (hovering ? "true" : "false"))
 }
