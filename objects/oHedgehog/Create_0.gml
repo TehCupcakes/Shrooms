@@ -5,5 +5,5 @@
 event_inherited();
 spd = 1;
 shroomsInRange = ds_list_create();
-damageRange = 20;
+damageRange = 10;
 dmg = 1.5;
