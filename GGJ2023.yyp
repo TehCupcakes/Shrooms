@@ -102,6 +102,8 @@
     {"id":{"name":"Squirrel","path":"sprites/Squirrel/Squirrel.yy",},"order":0,},
     {"id":{"name":"oGoldenShroomSpawner","path":"objects/oGoldenShroomSpawner/oGoldenShroomSpawner.yy",},"order":0,},
     {"id":{"name":"pWall","path":"objects/pWall/pWall.yy",},"order":0,},
+    {"id":{"name":"snd_ResourceCollected","path":"sounds/snd_ResourceCollected/snd_ResourceCollected.yy",},"order":0,},
+    {"id":{"name":"snd_ResourceCollect","path":"sounds/snd_ResourceCollect/snd_ResourceCollect.yy",},"order":0,},
     {"id":{"name":"scrGameOver","path":"scripts/scrGameOver/scrGameOver.yy",},"order":0,},
     {"id":{"name":"pStructure","path":"objects/pStructure/pStructure.yy",},"order":0,},
     {"id":{"name":"pSpawner","path":"objects/pSpawner/pSpawner.yy",},"order":0,},
