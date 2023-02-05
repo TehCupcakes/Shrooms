@@ -34,3 +34,5 @@ if (global.money >= cost) {
 	newInst.creator = id
 	global.heldShroom = newInst
 }
+
+audio_play_sound(snd_MushroomSelected, 10, false)

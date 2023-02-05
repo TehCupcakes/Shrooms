@@ -99,6 +99,7 @@
     {"id":{"name":"sNoGood","path":"sprites/sNoGood/sNoGood.yy",},"order":0,},
     {"id":{"name":"sStump","path":"sprites/sStump/sStump.yy",},"order":0,},
     {"id":{"name":"sGameBG","path":"sprites/sGameBG/sGameBG.yy",},"order":0,},
+    {"id":{"name":"snd_MushroomSelected","path":"sounds/snd_MushroomSelected/snd_MushroomSelected.yy",},"order":0,},
     {"id":{"name":"sResourceHUD","path":"sprites/sResourceHUD/sResourceHUD.yy",},"order":0,},
     {"id":{"name":"Squirrel","path":"sprites/Squirrel/Squirrel.yy",},"order":0,},
     {"id":{"name":"oGoldenShroomSpawner","path":"objects/oGoldenShroomSpawner/oGoldenShroomSpawner.yy",},"order":0,},
