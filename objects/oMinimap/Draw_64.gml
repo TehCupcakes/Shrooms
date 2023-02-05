@@ -20,6 +20,27 @@ if (instance_exists(oCamera)) {
 	draw_set_color(c_white)
 	draw_set_alpha(0.5)
 	draw_rectangle(camRegionX, camRegionY, camRegionX + camRegionWidth, camRegionY + camRegionHeight, false)
+	
+	// Draw instance representations on map
+	draw_set_alpha(1)
+	// Golden mushrooms :)
+	draw_set_color(c_yellow)
+	with (oGoldenShroom) {
+		var mapPos = scrPlotPosToMinimap(x, y)
+		draw_circle(other.minimapGuiX + mapPos.xVal, other.minimapGuiY + mapPos.yVal, 2, false)
+	}
+	// Holes
+	draw_set_color(c_olive)
+	with (oEnemyHole) {
+		var mapPos = scrPlotPosToMinimap(x, y)
+		draw_circle(other.minimapGuiX + mapPos.xVal, other.minimapGuiY + mapPos.yVal, 2, false)
+	}
+	// Enemies
+	draw_set_color(c_red)
+	with (pEnemy) {
+		var mapPos = scrPlotPosToMinimap(x, y)
+		draw_circle(other.minimapGuiX + mapPos.xVal, other.minimapGuiY + mapPos.yVal, 2, false)
+	}
 }
 
 if (global.debug) {

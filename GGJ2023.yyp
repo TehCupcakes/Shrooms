@@ -38,6 +38,7 @@
     "IDEVersion": "2023.1.0.58",
   },
   "resources": [
+    {"id":{"name":"scrPlotPosToMinimap","path":"scripts/scrPlotPosToMinimap/scrPlotPosToMinimap.yy",},"order":0,},
     {"id":{"name":"SmallPond","path":"sprites/SmallPond/SmallPond.yy",},"order":0,},
     {"id":{"name":"scrDepthSetDynamic","path":"scripts/scrDepthSetDynamic/scrDepthSetDynamic.yy",},"order":0,},
     {"id":{"name":"oBlaze","path":"objects/oBlaze/oBlaze.yy",},"order":0,},
@@ -86,6 +87,7 @@
     {"id":{"name":"Squirrel","path":"sprites/Squirrel/Squirrel.yy",},"order":0,},
     {"id":{"name":"oGoldenShroomSpawner","path":"objects/oGoldenShroomSpawner/oGoldenShroomSpawner.yy",},"order":0,},
     {"id":{"name":"pWall","path":"objects/pWall/pWall.yy",},"order":0,},
+    {"id":{"name":"scrGameOver","path":"scripts/scrGameOver/scrGameOver.yy",},"order":0,},
     {"id":{"name":"pStructure","path":"objects/pStructure/pStructure.yy",},"order":0,},
     {"id":{"name":"pSpawner","path":"objects/pSpawner/pSpawner.yy",},"order":0,},
     {"id":{"name":"Nutrients_Sheet","path":"sprites/Nutrients_Sheet/Nutrients_Sheet.yy",},"order":0,},
