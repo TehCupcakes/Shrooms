@@ -3,12 +3,13 @@ if (view_current == 0 || view_current == 2) {
 	if (view_current == 0) {
 		if (placed) {
 			// Draw healthbar
-			var barWidth = 60
+			var barWidth = 20
+			var barHeight = 3
 			draw_set_alpha(1)
 			draw_set_color(c_red)
-			draw_rectangle(x - barWidth / 2, y + 24, x - barWidth / 2 + round(barWidth * hp / maxHp), y + 30, false)
+			draw_rectangle(x - barWidth / 2, y + 24, x - barWidth / 2 + round(barWidth * hp / maxHp), y + 24 + barHeight, false)
 			draw_set_color(c_black)
-			draw_rectangle(x - barWidth / 2, y + 24, x + barWidth / 2, y + 30, true)
+			draw_rectangle(x - barWidth / 2, y + 24, x + barWidth / 2, y + 24 + barHeight, true)
 		} else {
 			draw_set_alpha(0.3)
 			draw_set_color(c_red)
@@ -22,6 +23,13 @@ if (view_current == 0 || view_current == 2) {
 				draw_set_color(c_white)
 				draw_sprite(sNoGood, 0, x, y)
 			}
+		}
+		
+		// Display damage range preview when hovering/placing
+		if (damageRange > 0 && (!placed || (global.heldShroom == noone && collision_point(mouse_x, mouse_y, self, false, false)))) {
+			draw_set_alpha(1)
+			draw_set_color(c_yellow)
+			draw_circle(x, y, damageRange, true)
 		}
 	}
 }

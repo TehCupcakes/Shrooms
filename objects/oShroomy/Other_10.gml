@@ -1,4 +1,6 @@
 /// @description Instance placed in play area
+event_inherited()
+
 spread = instance_create_layer(x, y, "FX", oSpreadFX)
 spread.creator = id
 
