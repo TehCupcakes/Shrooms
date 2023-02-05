@@ -7,4 +7,4 @@ spd = 1;
 shroomsInRange = ds_list_create();
 damageRange = 20;
 dmg = 1.5;
-image_speed = 10
+imgSpeed = 1
