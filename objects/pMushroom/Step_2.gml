@@ -8,8 +8,20 @@ if (!placed && !global.paused) {
 		y = mouse_y
 		scrDepthSetDynamic()
 	}
-	// Check if it is a valid position to place the mushroom
-	positionValid = inPlayArea && !collision_circle(x, y, placementSpaceNeeded, pStructure, false, true)
+	if (inPlayArea) {
+		// Check if it is a valid position to place the mushroom based on all structures
+		with (pMushroom) {
+			if (id = other.id) {
+				continue
+			}
+			if (point_in_circle(other.x, other.y, x, y, placementSpaceNeeded)) {
+				other.positionValid = false
+				break
+			}
+		}
+	} else {
+		positionValid = false
+	}
 	
 	// If mouse is released, place/cancel placement
 	if (mouse_check_button_released(mb_left)) {

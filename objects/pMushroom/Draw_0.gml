@@ -15,9 +15,9 @@ if (view_current == 0 || view_current == 2) {
 		} else {
 			draw_set_alpha(0.3)
 			draw_set_color(c_red)
-			with (pStructure) {
+			with (pMushroom) {
 				if (id != other.id) {
-					draw_circle(x, y, other.placementSpaceNeeded, false)
+					draw_circle(x, y, placementSpaceNeeded, false)
 				}
 			}
 			if (!positionValid) {
