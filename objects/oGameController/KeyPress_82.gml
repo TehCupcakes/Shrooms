@@ -1,3 +1,3 @@
-if (global.colonyHealth <= 0) {
+if (global.gameComplete) {
 	scrRestart()
 }

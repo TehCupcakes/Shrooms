@@ -1,4 +1,4 @@
-if (global.colonyHealth <= 0) {
+if (global.gameComplete) {
 	exit
 }
 

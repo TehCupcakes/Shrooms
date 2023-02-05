@@ -1,4 +1,4 @@
-if (global.colonyHealth > 0) {
+if (!global.gameComplete) {
 	global.money++;
 	var coinFlip = choose(0,1)
 	if (coinFlip == 1) {

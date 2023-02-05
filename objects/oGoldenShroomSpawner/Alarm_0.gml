@@ -1,5 +1,5 @@
 /// @description Trigger spawn
-if (global.colonyHealth <= 0) {
+if (global.gameComplete) {
 	// Game over, man! No more shrooms for you!
 	instance_destroy()
 	exit

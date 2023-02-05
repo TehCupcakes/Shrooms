@@ -5,4 +5,4 @@ with (oGoldenShroom) {
 	}
 }
 
-global.colonyHealth = clamp(shroomsLeft * 10, 0, 100)
+global.colonyHealth = clamp(shroomsLeft, 0, WIN_SHROOM_COUNT)
