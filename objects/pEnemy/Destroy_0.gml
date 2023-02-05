@@ -1,1 +1,1 @@
-instance_create_layer(x, y, "Instances", oNutrients);
+instance_create_depth(x, y, -10000, oNutrients);

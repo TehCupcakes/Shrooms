@@ -1,6 +1,6 @@
 event_inherited()
 
-damageRange = 128;
+damageRange = 60;
 dmg = 1;
 scale = 1;
 
