@@ -16,4 +16,4 @@ halfHeight = camera_get_view_height(view_camera[0]) / 2;
 centerX = camX + halfWidth;
 centerY = camY + halfHeight;
 
-instance_create_layer(x, y, layer, oMinimap)
+instance_create_layer(x, y, "Instances", oMinimap)
