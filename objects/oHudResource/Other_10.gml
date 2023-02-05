@@ -6,14 +6,14 @@ if (shroomType == ShroomType.SHROOMY) {
 	nameText = "Shroomy";
 	damageText = "Damage: 1";
 	radiusText = "Radius: 60";
-	descriptionText = "Shroomy is your basic shroom. He does damage in a radius\nso long enemies are within range.";
+	descriptionText = "Shroomy is your basic shroom. He does damage to enemies\nwithin a radius.";
 } else if (shroomType == ShroomType.BLAZE) {
 	shroomSprite = BlazeShroom;
 	cost = 5;
 	nameText = "Blaze";
 	damageText = "Damage: 2";
 	radiusText = "Radius: 40";
-	descriptionText = "Blaze is a spicy shroom that will do a lot of damage to\nenemies, however its range is not that great.";
+	descriptionText = "Blaze is a spicy shroom that will do a lot of damage to\nenemies. However, it has limited range.";
 } else if (shroomType == ShroomType.GOLDEN) {
 	shroomSprite = GoldenShroom;
 	cost = 10;
@@ -34,14 +34,14 @@ if (shroomType == ShroomType.SHROOMY) {
 	nameText = "Poppy";
 	damageText = "Damage: 0";
 	radiusText = "Radius: 120";
-	descriptionText = "Poppy will double the damage of all shrooms and double the\ndefense of Tasty Shrooms and Golden Shrooms, as long as\nthey're in its radius.";
+	descriptionText = "Poppy will double the damage of all shrooms and double\nthe defense of Tasty Shrooms and Golden Shrooms within\nits radius.";
 } else if (shroomType == ShroomType.TASTY) {
 	shroomSprite = Tasty;
 	cost = 3;
 	nameText = "Tasty";
 	damageText = "Traits: Attractive ;)";
 	radiusText = "Radius: Infinite";
-	descriptionText = "Tasty shrooms are just as good as Golden Shrooms to\nenemies. They'll travel to whichever is closer!";
+	descriptionText = "Tasty shrooms are just as delicious as Golden Shrooms to\nenemies. They'll travel to whichever is closer!";
 } else if (shroomType == ShroomType.STUMPY) {
 	shroomSprite = sStump;
 	cost = 1;
