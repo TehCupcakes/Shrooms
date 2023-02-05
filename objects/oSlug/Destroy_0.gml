@@ -4,5 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-
-audio_play_sound(snd_SlugSplat, 10, false);
+if (!global.paused) {
+	audio_play_sound(snd_SlugSplat, 10, false);
+}

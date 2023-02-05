@@ -2,6 +2,8 @@
 global.colonyHealth = 100
 global.heldShroom = noone
 global.money = 10
+global.score = 0
+global.paused = false
 
 global.debug = os_get_config() == "debug"
 if (!global.debug) {

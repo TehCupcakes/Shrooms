@@ -26,7 +26,7 @@ if (view_current == 0 || view_current == 2) {
 		}
 		
 		// Display damage range preview when hovering/placing
-		if (damageRange > 0 && (!placed || (global.heldShroom == noone && collision_point(mouse_x, mouse_y, self, false, false)))) {
+		if (!global.paused && damageRange > 0 && (!placed || (global.heldShroom == noone && collision_point(mouse_x, mouse_y, self, false, false)))) {
 			draw_set_alpha(1)
 			draw_set_color(c_yellow)
 			draw_circle(x, y, damageRange, true)

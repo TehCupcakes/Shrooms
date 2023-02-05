@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if (hp > 0) {
+if (hp > 0 && !global.paused) {
 	ds_list_clear(shroomsInRange)
 	collision_circle_list(x, y, damageRange, pMushroom, false, true, shroomsInRange, false)
 	for (var i = 0; i < ds_list_size(shroomsInRange); i++) {

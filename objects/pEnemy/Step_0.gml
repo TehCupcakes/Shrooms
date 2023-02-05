@@ -1,3 +1,7 @@
+if (global.paused) {
+	return
+}
+
 // Find the closest golden shroom that is PLACED
 var closestTasty = noone
 var closestDistTasty = 10000000
