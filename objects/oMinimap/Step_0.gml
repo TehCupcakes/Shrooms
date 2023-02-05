@@ -18,7 +18,7 @@ if (mouse_check_button_released(mb_left)) {
 }
 
 // If the mouse is hover over the minimap AND they previously clicked on it, move camera to specified area
-if (moveToPoint) {
+if (moveToPoint && (global.colonyHealth <= 0 || !global.paused)) {
 	var xOffsetPercent = clamp((mouseGuiX - minimapGuiX) / minimapWidth, 0, 1)
 	var yOffsetPercent = clamp((mouseGuiY - minimapGuiY) / minimapHeight, 0, 1)
 	with (oCamera) {

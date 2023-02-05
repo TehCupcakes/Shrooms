@@ -1,5 +1,9 @@
 if (global.paused) {
+	image_speed = 0
+	image_index = 0
 	return
+} else {
+	image_speed = 2
 }
 
 // Find the closest golden shroom that is PLACED

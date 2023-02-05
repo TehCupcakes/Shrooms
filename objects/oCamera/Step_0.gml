@@ -1,6 +1,11 @@
 camX = camera_get_view_x(view_camera[0])
 camY = camera_get_view_y(view_camera[0])
 
+// Don't allow repositioning the camera while paused, but DO after game over
+if (global.paused && global.colonyHealth > 0) {
+	exit
+}
+
 // Do ALL camera reposition logic here
 var camSpeed = 6
 if (keyboard_check(vk_shift)) {

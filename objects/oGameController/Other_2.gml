@@ -11,7 +11,8 @@ global.inputs = {
 	up: false,
 	down: false,
 	left: false,
-	right: false
+	right: false,
+	pause: false,
 }
 
 // TODO: Adjust these before release
