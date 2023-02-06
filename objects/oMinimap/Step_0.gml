@@ -3,8 +3,8 @@ if (!instance_exists(oCamera)) {
 	exit
 }
 
-var mouseGuiX = device_mouse_raw_x(0)
-var mouseGuiY = device_mouse_raw_y(0)
+var mouseGuiX = device_mouse_x_to_gui(0)
+var mouseGuiY = device_mouse_y_to_gui(0)
 hovering = point_in_rectangle(mouseGuiX, mouseGuiY, minimapGuiX, minimapGuiY, minimapGuiX + minimapWidth, minimapGuiY + minimapHeight)
 
 // Detect clicking on minimap
