@@ -9,8 +9,8 @@
   "bitDepth": 1,
   "bitRate": 128,
   "compression": 0,
-  "conversionMode": 0,
-  "duration": 47.80408,
+  "conversionMode": 1,
+  "duration": 35.996735,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_BackgroundMusic.mp3",
   "type": 1,
-  "volume": 0.2,
+  "volume": 0.1,
 }
